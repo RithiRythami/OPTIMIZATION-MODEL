@@ -17,3 +17,10 @@ DESCRIPTION: The code uses *PuLP, a Python library for linear programming, to de
 Several constraints are added to ensure feasibility and resource limitations. The first constraint limits the total processing time on *Machine A* to *40 hours (2400 minutes), while the second ensures that **Machine B* does not exceed *35 hours (2100 minutes). These constraints ensure that production stays within the available machine capacity and prevents exceeding operational limits. Additionally, demand constraints require at least **45 units of X* and *5 units of Y* to be produced to meet customer requirements. This guarantees that customer demand is satisfied while preventing stock shortages.  
 
 After defining these constraints, the model is solved using solve(), which finds the optimal production levels for *X and Y* while ensuring efficiency and feasibility. The results are then printed, showing that *45 units of X and 6.25 units of Y* should be produced to *maximize leftover stock, which results in **1.25 units* of stock remaining at the end of the week. This outcome ensures that the company optimally utilizes machine time while fulfilling demand. The solution also helps in planning production schedules efficiently, minimizing resource wastage, and ensuring smooth operations. This approach ensures *optimal resource utilization, demand fulfillment, and efficiency* in production while working within machine time constraints.
+
+
+![Image](https://github.com/user-attachments/assets/16d34dff-69a0-46ea-9e22-41f55c1c06b7)
+
+![Image](https://github.com/user-attachments/assets/3d5a0436-575d-41d5-a75c-2d5bfddc88b5)
+
+![Image](https://github.com/user-attachments/assets/202d65b5-641a-4aaa-a339-daf9dddffa5f)
